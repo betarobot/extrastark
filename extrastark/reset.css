@@ -1,5 +1,7 @@
 /* @group html reset */
 
+/* Slightly remixed HTML5Boilerplate CSS reset */
+
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
@@ -48,6 +50,8 @@ hr {
   margin: 1em 0;
 }
 
+/* Total reset for form items. But remember to deal with border, this one is left so we can see then more clearly yet */
+
 input, textarea, select {
   margin: 0;
   padding: 0;
@@ -59,6 +63,8 @@ input, textarea, select {
 /* @end */
 
 /* @group drupal 7 specific reset */
+
+/* reset list styles */
 
 ul,
 li,
@@ -77,21 +83,12 @@ li.leaf,
   list-style-type: none;
 }
 
+/* reset to a few more elements */
+
 .breadcrumb,
 #comments,
 .form-item,
-.form-actions {
-  margin: 0;
-  padding: 0;
-}
-
-tr.even,
-tr.odd {
-  background-color: #fff;
-  border-bottom: 0;
-  padding: 0;
-}
-
+.form-actions,
 .filter-wrapper,
 .book-navigation ul.menu,
 .book-navigation .page-links {
@@ -105,11 +102,21 @@ tr.odd {
   font-style: normal;
 }
 
-/* reset tabs */
+/* reset zebra table style */
+
+tr.even,
+tr.odd {
+  background-color: #fff;
+  border-bottom: 0;
+  padding: 0;
+}
+
+/* reset administration tabs */
 
 ul.primary,
 ul.primary li a,
-ul.primary li a.active {
+ul.primary li a.active,
+ul.primary li a:hover {
   border: 0;
   margin: 0;
   padding: 0;
