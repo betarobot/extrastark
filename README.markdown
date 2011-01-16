@@ -10,15 +10,16 @@ The theme is created for those purists to demonstrate how easy it is to reset an
 The theme is not intended to be used on production sites (it's too bare for that), though you can use it as basis for more graphical theme.
 
 ##FEATURES:
-The main attraction is reset.css, which by popular demand would include slightly remixed HTML5Boilerplate CSS reset as well. But there is more: 
-* form elements reset (so you'll miss nice enough default D7 buttons), it supplies only borders to make them visible.
-* original Stark layout (layout.css) has no margins.
-* the theme does reset front end styles, but not the backend.
-* one anti-reset: font is set to sans-serif (in style.css, just hate small serifs).
+The main attraction is reset.css, which by popular demand would include slightly remixed HTML5Boilerplate CSS reset as well. But there is more:
+
+- form elements reset (so you'll miss nice enough default D7 buttons), it supplies only borders to make them visible.
+- original Stark layout (layout.css) has no margins.
+- the theme does reset front end styles, but not the backend.
+- one anti-reset: font is set to sans-serif (in style.css, just hate small serifs).
 
 ##VALIDATION:
-* W3C CSS Valid (CSS level 3)
-* XHTML + RDFa Valid
+- W3C CSS Valid (CSS level 3)
+- XHTML + RDFa Valid
 
 ##BROWSER COMPATIBILITY:
 IE (6,7,8), WebKit (Safari, Chrome), Mozilla (FireFox, Camino, SeaMonkey), Opera (8,9,10).
@@ -27,6 +28,6 @@ IE (6,7,8), WebKit (Safari, Chrome), Mozilla (FireFox, Camino, SeaMonkey), Opera
 As usual, the theme was tested with Drupal 7 core modules only. If you have contrib modules installed then you might need more resets. Please DO submit an issue to module developers if you see some excessive or unneeded CSS.
 
 ##MORE TO READ:
-A nice and clear write up on Drupal CSS concepts by Jacine Luisi http://jacine.net/post/978688556/drupal-css
+A nice and clear write up on Drupal CSS concepts by [Jacine Luisi](http://jacine.net/post/978688556/drupal-css)
 
 Enjoy the reset madness!
